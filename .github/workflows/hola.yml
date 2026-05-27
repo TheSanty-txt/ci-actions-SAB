@@ -1,0 +1,11 @@
+name: Hola Actions SAB
+
+on:
+  workflow_dispatch:
+
+jobs:
+  saludar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar salutacio
+        run: echo "Hola, GitHub Actions! Soc SAB"
